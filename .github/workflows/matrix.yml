@@ -9,9 +9,9 @@ jobs:
         node_version: [6, 8, 10]
         exclude:
           - os: ubuntu-latest
-            node-version: 6
+            node_version: 6
           - os: macos-latest
-            node-version: 8
+            node_version: 8
       fail-fast: true
       #max-parallel: 2
     
